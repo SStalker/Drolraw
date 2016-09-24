@@ -3,6 +3,8 @@
 #include "Drolraw.h"
 #include "DrolrawGameMode.h"
 
-
-
-
+ADrolrawGameMode::ADrolrawGameMode(const FObjectInitializer& ObjectInitializer)
+: Super(ObjectInitializer)
+{
+    DefaultPawnClass = AGamer::StaticClass();
+}
