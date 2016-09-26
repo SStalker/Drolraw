@@ -5,6 +5,7 @@
 #include "GameFramework/GameMode.h"
 #include "Gamer.h"
 //#include "CardLoader.h"
+#include "XmlParser.h"
 #include "DrolrawGameMode.generated.h"
 
 /**
