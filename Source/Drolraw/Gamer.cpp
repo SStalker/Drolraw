@@ -44,17 +44,32 @@ void AGamer::Tick( float DeltaTime )
 	if(currentClickedTarget != nullptr)
 	{
 		APlayerController* PlayerController = Cast<APlayerController>(GetController());
+
 		if (PlayerController != nullptr)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Change pos")));
+			FVector mouseLocation, mouseDirection, currentLocation, newLocation;
+			// Retrieve worldcoordinates from mouseposition
+			PlayerController->DeprojectMousePositionToWorld(mouseLocation, mouseDirection);
 
-				FVector mouseLocation, mouseDirection;
-				PlayerController->DeprojectMousePositionToWorld(mouseLocation, mouseDirection);
-				currentClickedTarget->SetActorLocation(currentClickedTarget->GetActorLocation()+mouseLocation);
+			// Set current Location of actor
+			currentLocation = currentClickedTarget->GetActorLocation();
+			//newLocation = FVector(currentLocation.X + mouseDirection.X*3, currentLocation.Y + mouseDirection.Y*3, currentLocation.Z);
+
+			FVector Orgin;
+      FVector BoundsExtent;
+			// Retrieve the bounding box of the actor to get the current origin
+      currentClickedTarget->GetActorBounds(true, Orgin, BoundsExtent);
+
+			// Calculate the new location.. lerp from a to b
+			FVector C = FMath::Lerp(mouseDirection*200+mouseLocation, Orgin, 0.5f);
+
+			// Z wont change
+			C.Z = currentLocation.Z;
+
+			// Set new locatiob
+			currentClickedTarget->SetActorLocation(C);
 		}
-
 	}
-
 }
 
 // Called to bind functionality to input
@@ -68,7 +83,13 @@ void AGamer::SetupPlayerInputComponent(class UInputComponent* InputComponent)
 
 void AGamer::click()
 {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Hello World xD")));
+	// If currentClickedTarget != nullptr then reset it.
+	if(currentClickedTarget != nullptr)
+	{
+		currentClickedTarget = nullptr;
+		return;
+	}
+
 
 	APlayerController* PlayerController = Cast<APlayerController>(GetController());
 	if (PlayerController != nullptr)
