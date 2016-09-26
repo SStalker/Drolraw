@@ -5,7 +5,9 @@
 
 CardLoader::CardLoader()
 {
-  const FXmlFile file(L"C:/file.xml");
+
+  //GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("CardLoader")));
+  /*const FXmlFile file(L"Content/Xml/Deverenian.xml");
 
 
 	const FXmlNode* SceneNode = file.GetRootNode();
@@ -16,13 +18,13 @@ CardLoader::CardLoader()
 	{
 		const TArray<FXmlNode*> meshNodes = assetNodes[i]->GetChildrenNodes();
 
-		for (int i = 0; i < meshNodes.Num(); i++)
+		for (int j = 0; j < meshNodes.Num(); j++)
 		{
-			FString tag = meshNodes[i]->GetTag();
+			FString tag = meshNodes[j]->GetTag();
 
 			GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, tag);
 		}
-	}
+	}*/
 }
 
 CardLoader::~CardLoader()

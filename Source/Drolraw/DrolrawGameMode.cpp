@@ -6,5 +6,8 @@
 ADrolrawGameMode::ADrolrawGameMode(const FObjectInitializer& ObjectInitializer)
 : Super(ObjectInitializer)
 {
-    DefaultPawnClass = AGamer::StaticClass();
+  //UE_LOG(LogTemp, Warning, TEXT("Your message"));
+  DefaultPawnClass = AGamer::StaticClass();
+
+  //CardLoader cl;
 }
