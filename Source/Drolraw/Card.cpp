@@ -43,6 +43,7 @@ std::string Card::getCardStatus() const{
 void Card::setCardStatus(CardStatus status_){
     this->status = status_;
 }
+
 std::vector<int> Card::getOrders() const
 {
     return orders;
@@ -52,6 +53,17 @@ void Card::setOrders(const std::vector<int> &value)
 {
     orders = value;
 }
+
+std::string Card::getImagePath() const
+{
+  return this->imagePath;
+}
+
+void Card::setImagePath(std::string imagePath)
+{
+  this->imagePath = imagePath;
+}
+
 std::vector<CardClass> Card::getC_Class() const
 {
     return c_Class;
