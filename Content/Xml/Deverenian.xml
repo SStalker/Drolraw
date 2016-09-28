@@ -1,0 +1,345 @@
+<?xml version='1.0'?>
+<cards>
+ <card text="" type="Character" graphic="SagaOfTheStorm/Deverenian/Baudwyn Troubadour.jpg" name="Baudwyn Troubadour">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="0" key="Attack"/>
+  <attr value="13" key="Armor"/>
+  <attr value="1" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Rogue</class>
+  </attr>
+  <attr key="traits">
+   <trait>Bard</trait>
+  </attr>
+  <attr key="equipments"/>
+  <attr value="0" key="Skill"/>
+  <attr value="1" key="Hitpoint"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" graphic="SagaOfTheStorm/Deverenian/Bishop Koenraad.jpg" name="Bishop Koenraad">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="1" key="Attack"/>
+  <attr value="12" key="Armor"/>
+  <attr value="2" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Cleric</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="3" key="Skill"/>
+  <attr value="1" key="Hitpoint"/>
+  <attr value="1" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Bruin Lenoire" graphic="SagaOfTheStorm/Deverenian/Bruin Lenoire.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="1" key="Attack"/>
+  <attr value="10" key="Armor"/>
+  <attr value="2" key="Level"/>
+  <attr value="good" key="Alignment"/>
+  <attr key="classes">
+   <class>Wizard</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="4" key="Skill"/>
+  <attr value="1" key="Hitpoint"/>
+  <attr value="2" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" graphic="SagaOfTheStorm/Deverenian/Count Damien.jpg" name="Count Damien">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="5|2|2" key="Attack"/>
+  <attr value="13" key="Armor"/>
+  <attr value="4" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Fighter</class>
+  </attr>
+  <attr key="traits">
+   <trait>Bard</trait>
+  </attr>
+  <attr key="equipments"/>
+  <attr value="4" key="Skill"/>
+  <attr value="2" key="Hitpoint"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Darius" graphic="SagaOfTheStorm/Deverenian/Darius.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="0" key="Attack"/>
+  <attr value="11" key="Armor"/>
+  <attr value="1" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Fighter</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="0" key="Skill"/>
+  <attr value="1" key="Hitpoint"/>
+  <attr value="3" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Elaneor Tremayne" graphic="SagaOfTheStorm/Deverenian/Elaneor Tremayne.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="2" key="Attack"/>
+  <attr value="13" key="Armor"/>
+  <attr value="3" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Rogue</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="4" key="Skill"/>
+  <attr value="3" key="Hitpoint"/>
+  <attr value="4" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Imperial Gurad" graphic="SagaOfTheStorm/Deverenian/Imperial Guard.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="2" key="Attack"/>
+  <attr value="13" key="Armor"/>
+  <attr value="2" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Fighter</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="1" key="Skill"/>
+  <attr value="1" key="Hitpoint"/>
+  <attr value="5" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Lady Beatrix" graphic="SagaOfTheStorm/Deverenian/Lady Beatrix.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="2" key="Attack"/>
+  <attr value="14" key="Armor"/>
+  <attr value="2" key="Level"/>
+  <attr value="good" key="Alignment"/>
+  <attr key="classes">
+   <class>Fighter</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="3" key="Skill"/>
+  <attr value="1" key="Hitpoint"/>
+  <attr value="" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Lady Meleagrance" graphic="SagaOfTheStorm/Deverenian/Lady Meleagrance.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="0" key="Attack"/>
+  <attr value="10" key="Armor"/>
+  <attr value="2" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes"/>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="1" key="Skill"/>
+  <attr value="2" key="Hitpoint"/>
+  <attr value="" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Lord Gahid Rellion" graphic="SagaOfTheStorm/Deverenian/Lord Gahid Rellion.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="9|4" key="Attack"/>
+  <attr value="16" key="Armor"/>
+  <attr value="5" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Fighter</class>
+  </attr>
+  <attr key="traits">
+   <trait>Warlord</trait>
+   <trait>Unique</trait>
+  </attr>
+  <attr key="equipments"/>
+  <attr value="7" key="Skill"/>
+  <attr value="3" key="Hitpoint"/>
+  <attr value="6" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Marcos Genecourt" graphic="SagaOfTheStorm/Deverenian/Marcos Genecourt.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="1" key="Attack"/>
+  <attr value="13" key="Armor"/>
+  <attr value="2" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Rogue</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="2" key="Skill"/>
+  <attr value="1" key="Hitpoint"/>
+  <attr value="7" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Master Anandale" graphic="SagaOfTheStorm/Deverenian/Master Anandale.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="7" key="Attack"/>
+  <attr value="14" key="Armor"/>
+  <attr value="4" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Fighter</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="5" key="Skill"/>
+  <attr value="2" key="Hitpoint"/>
+  <attr value="8" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Princess Dashkova" graphic="SagaOfTheStorm/Deverenian/Princess Dashkova.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="3" key="Attack"/>
+  <attr value="15" key="Armor"/>
+  <attr value="4" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes"/>
+  <attr key="traits">
+   <trait>Unique</trait>
+  </attr>
+  <attr key="equipments"/>
+  <attr value="5" key="Skill"/>
+  <attr value="3" key="Hitpoint"/>
+  <attr value="9" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Sir Diotram" graphic="SagaOfTheStorm/Deverenian/Sir Diotram.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="1" key="Attack"/>
+  <attr value="11" key="Armor"/>
+  <attr value="1" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Fighter</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="0" key="Skill"/>
+  <attr value="1" key="Hitpoint"/>
+  <attr value="10" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Sir Euain" graphic="SagaOfTheStorm/Deverenian/Sir Euain.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="0" key="Attack"/>
+  <attr value="10" key="Armor"/>
+  <attr value="1" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Wizard</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="1" key="Skill"/>
+  <attr value="1" key="Hitpoint"/>
+  <attr value="11" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Sir Sorlos d'ilchant" graphic="SagaOfTheStorm/Deverenian/Sir Sorlons d'Ilchant.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="5" key="Attack"/>
+  <attr value="14" key="Armor"/>
+  <attr value="3" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Fighter</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="3" key="Skill"/>
+  <attr value="2" key="Hitpoint"/>
+  <attr value="12" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Slayer the Unkind" graphic="SagaOfTheStorm/Deverenian/Slayer the Unkind.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="3" key="Attack"/>
+  <attr value="11" key="Armor"/>
+  <attr value="5" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Wizard</class>
+  </attr>
+  <attr key="traits">
+   <trait>Warlord</trait>
+   <trait>Unique</trait>
+  </attr>
+  <attr key="equipments"/>
+  <attr value="10" key="Skill"/>
+  <attr value="3" key="Hitpoint"/>
+  <attr value="13" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Squire Edonloc" graphic="SagaOfTheStorm/Deverenian/Squire Edonloc.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="0" key="Attack"/>
+  <attr value="11" key="Armor"/>
+  <attr value="1" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Cleric</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="2" key="Skill"/>
+  <attr value="1" key="Hitpoint"/>
+  <attr value="" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Squire Kelanor" graphic="SagaOfTheStorm/Deverenian/Squire Kelanor.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="0" key="Attack"/>
+  <attr value="12" key="Armor"/>
+  <attr value="1" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Fighter</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="1" key="Skill"/>
+  <attr value="1" key="Hitpoint"/>
+  <attr value="" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="The Beast Knight" graphic="SagaOfTheStorm/Deverenian/The Beast Knight.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="4" key="Attack"/>
+  <attr value="15" key="Armor"/>
+  <attr value="3" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Fighter</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="4" key="Skill"/>
+  <attr value="2" key="Hitpoint"/>
+  <attr value="14" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+ <card text="" type="Character" name="Theoloc" graphic="SagaOfTheStorm/Deverenian/Theoloc.jpg">
+  <attr value="Deverenian" key="Faction"/>
+  <attr value="1" key="Attack"/>
+  <attr value="9" key="Armor"/>
+  <attr value="3" key="Level"/>
+  <attr value="evil" key="Alignment"/>
+  <attr key="classes">
+   <class>Wizard</class>
+  </attr>
+  <attr key="traits"/>
+  <attr key="equipments"/>
+  <attr value="5" key="Skill"/>
+  <attr value="1" key="Hitpoint"/>
+  <attr value="15" key="OrderID"/>
+  <attr key="feats"/>
+ </card>
+</cards>

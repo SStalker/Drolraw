@@ -25,6 +25,12 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
+private:
+	// React on click input
+	void click();
+
+	AActor* currentClickedTarget;
+
 protected:
     UPROPERTY(EditAnywhere)
     USpringArmComponent* OurCameraSpringArm;
