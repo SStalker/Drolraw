@@ -8,29 +8,29 @@ ADrolrawGameMode::ADrolrawGameMode(const FObjectInitializer& ObjectInitializer)
 {
   //UE_LOG(LogTemp, Warning, TEXT("Your message"));
   DefaultPawnClass = AGamer::StaticClass();
+  files[0] = "Xml/Deverenian.xml";
+
+  deverenian = new std::vector<CharacterCard*>();
+
+  loadCards();
+}
+
+bool ADrolrawGameMode::loadCards()
+{
   FString path = FPaths::GameContentDir();
-  path += "Xml/Deverenian.xml";
 
-  const FXmlFile file(path);
+  for(FString f : files)
+  {
+    UE_LOG(LogTemp, Warning, TEXT("Files to load: %s"), *f);
+    cl.openXMLFile(path + f);
+    cl.loadAllCards(deverenian);
+  }
 
-  UE_LOG(LogTemp, Warning, TEXT("Your message %s"), *file.GetLastError());
-  UE_LOG(LogTemp, Warning, TEXT("Your message %s"), *path);
+  for(CharacterCard* cc : *deverenian)
+  {
+    std::cout << "Name: " << cc->getName() << std::endl;
+    std::cout << "Image: " << cc->getImagePath() << std::endl;
+  }
 
-  const FXmlNode* SceneNode = file.GetRootNode();
-
-	const TArray<FXmlNode*> assetNodes = SceneNode->GetChildrenNodes();
-
-	for (int i = 0; i < assetNodes.Num(); i++)
-	{
-		const TArray<FXmlNode*> meshNodes = assetNodes[i]->GetChildrenNodes();
-    UE_LOG(LogTemp, Warning,TEXT("%s"), *assetNodes[i]->GetContent());
-		for (int j = 0; j < meshNodes.Num(); j++)
-		{
-			FString tag = meshNodes[j]->GetAttribute("value");
-
-      UE_LOG(LogTemp, Warning,TEXT("%s"), *tag);
-			//GEngine->AddOnScreenDebugMessage(-1, 15.0f, FColor::Red, tag);
-		}
-	}
-  //CardLoader cl;
+  return true;
 }

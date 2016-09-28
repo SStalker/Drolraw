@@ -49,6 +49,9 @@ public:
 	    std::vector<int> getOrders() const;
 	    void setOrders(const std::vector<int> &value);
 
+			std::string getImagePath() const;
+			void setImagePath(std::string imagePath);
+
 	    operator std::string() const;
 
 	    std::vector<CardClass> getC_Class() const;
@@ -67,4 +70,5 @@ public:
 	    std::vector<CardClass> c_Class;
 	    CardStatus status;
 	    std::vector<int> orders;
+			std::string imagePath;
 };

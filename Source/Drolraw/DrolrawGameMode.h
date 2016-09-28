@@ -4,8 +4,8 @@
 
 #include "GameFramework/GameMode.h"
 #include "Gamer.h"
-//#include "CardLoader.h"
 #include "XmlParser.h"
+#include "CardLoader.h"
 #include "DrolrawGameMode.generated.h"
 
 /**
@@ -18,5 +18,9 @@ class DROLRAW_API ADrolrawGameMode : public AGameMode
 
 	ADrolrawGameMode(const FObjectInitializer& ObjectInitializer);
 
+	bool loadCards();
 
+	FString files[1];
+	CardLoader cl;
+	std::vector<CharacterCard*> *deverenian;
 };
